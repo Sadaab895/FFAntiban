@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FFAntiban</string>
+    <string name="accessibility_desc">FF Antiban Accessibility Service</string>
+</resources>
