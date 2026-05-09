@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace 'com.example.ffantiban'
     compileSdk 33
 
     defaultConfig {
