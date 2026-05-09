@@ -3,20 +3,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#1a1a2e">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FF Antiban Panel"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:text="FF Auto Headshot"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#00ff88" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Enable Accessibility"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp" />
 
     <Button
         android:id="@+id/btnToggleAim"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enable/Disable Aim"
-        android:layout_marginTop="20dp" />
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="START HEADSHOT"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#00ff88" />
 
 </LinearLayout>
